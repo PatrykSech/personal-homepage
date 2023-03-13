@@ -1,17 +1,10 @@
 import { Container, List, ListItem, SubHeader } from "./styled";
 
-export const Tail = ({ title }) => (
+export const Tail = ({ title, body }) => (
     <Container>
         <SubHeader>
             {title}
         </SubHeader>
-        <List>
-            <ListItem>Coś</ListItem>
-            <ListItem>Coś</ListItem>
-            <ListItem>Coś</ListItem>
-            <ListItem>Coś</ListItem>
-            <ListItem>Coś</ListItem>
-            <ListItem>Coś</ListItem>
-        </List>
+        {body}
     </Container>
 )

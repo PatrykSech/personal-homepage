@@ -26,9 +26,6 @@ export const Button = styled.button`
     background-color: ${({theme}) => theme.color.scienceBlue};
     border: 1px solid rgba(209, 213, 218, 0.3);
     border-radius: 4px;
-    font-weight: 600;
-    font-size: 20.0584px;
-    color: white;
     padding: 12px 16px;
     justify-items: center;
     display: grid;
@@ -49,4 +46,13 @@ export const Container = styled.div`
     grid-template-columns: auto 1fr;
     align-items: center;
     padding: 115px 0 63px;
+`
+
+export const ButtonContent = styled.span`
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: 0.05em;
+    color: white;
 `
