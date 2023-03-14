@@ -1,7 +1,8 @@
 import { useState } from "react";
+import { Toggle } from "./styled";
 
-function Switch({ toggleTheme }) {
-    const [isToggled, setIsToggled] = useState(false);
+function Switch({ toggleTheme, isDarkTheme }) {
+    const [isToggled, setIsToggled] = useState(isDarkTheme);
 
     const onToggle = () => {
         setIsToggled(!isToggled)
@@ -9,7 +10,7 @@ function Switch({ toggleTheme }) {
     };
 
     return (
-        <button onClick={onToggle}>Zmień tło</button>
+        <Toggle onClick={onToggle} isDarkTheme={isDarkTheme}/>
     )
 }
 

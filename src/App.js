@@ -24,7 +24,7 @@ function App() {
       <GlobalStyle />
     <main>
       <div>
-        <Switch toggleTheme={toggleTheme}/>
+        <Switch toggleTheme={toggleTheme} isDarkTheme={isDarkTheme}/>
         <About name="Patryk Sech" about="👨🏻‍💻💻 I’m a passionate Frontend Developer in love with React, currently looking for new job opportunities"/>
         <Tail title="My skillset includes 🛠️" body={<CreateListSkillset />}/>
         <Tail title="What I want to learn next 🚀" body={<CreateListToLearn />}/>
