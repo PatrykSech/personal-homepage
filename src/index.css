@@ -2,11 +2,3 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
-
-body {
-  font-family: 'Inter', sans-serif;
-  background-color: #E5E5E5;
-  max-width: 1216px;
-  margin: auto;
-  margin-bottom: 200px;
-}
