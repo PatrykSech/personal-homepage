@@ -15,7 +15,7 @@ export const Toggle = styled.div`
     transition: background-color 500ms linear;
 
     &:before{
-        content: url(../features/homepage/Images/Dark);
+        content: url(../features/homepage/Images/DarkMode.svg);
         width: 20px;
         height: 20px;
         background-color: ${({ isDarkTheme }) => isDarkTheme !== false ? '#FFFFFF' : '#6E7E91'};
